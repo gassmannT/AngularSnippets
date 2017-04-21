@@ -1,3 +1,4 @@
+html, body{ margin: 0; padding: 0; height: 100%;}
 body {
     font-family: 'Trebuchet MS' ,Arial,sans-serif;
 }
@@ -90,6 +91,7 @@ margin-bottom: 5px;
 .sidebar-collapse .nav {
     padding:0;
     margin-top: 25px;
+    list-style-type: none;
 }
 .sidebar-collapse .nav > li > a {
     color:#fff;
