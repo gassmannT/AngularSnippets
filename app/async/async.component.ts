@@ -8,10 +8,10 @@ import { Observable } from 'rxjs/Rx';
  <div>
   <h2>AsyncPipe Angular 4 Style</h2>
   <p ngNonBindable>{{ observable | async }}
-  <p>{{ observable | async }}</p>
+  <p>{{ observable | async }}&nbsp;</p>
   <h2>Without any pipe Angular 2 Style</h2> 
   <p ngNonBindable>{{ observableNotAsync }}
-  <p>{{ observableNotAsync }}</p> 
+  <p>{{ observableNotAsync }}&nbsp;</p> 
  </div>
 `
 })
