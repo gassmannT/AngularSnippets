@@ -1,0 +1,143 @@
+body {
+    font-family: 'Trebuchet MS' ,Arial,sans-serif;
+}
+
+a, a:hover, a:focus {
+    cursor: pointer;
+    color: #c92c21;
+}
+
+.form-control:focus {
+    border-color: #c92c21;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #c92c21;
+    border-color: #c92c21;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #8C0000;
+    border-color: #8C0000;
+        transition: all 300ms linear;
+}
+
+#main-menu li span {
+    color: #fff;
+    text-shadow: 0 -1px 0 #000;
+}
+
+#main-menu li a {
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    clear: left;
+    width: 100%;
+}
+
+#wrapper {
+width: 100%;
+background:#202020;
+}
+
+#page-wrapper {
+padding: 15px 15px;
+min-height: 600px;
+background:#F3F3F3;
+
+}
+#page-inner {
+width:100%;
+margin:10px 20px 10px 0px;
+background-color:#fff!important;
+padding:10px;
+min-height:1200px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h1, h2 {
+text-shadow: 0 2px 3px #BBBBBB;
+margin-top: 5px;
+}
+h1 {
+color: #f00;
+margin-bottom: 20px;
+}
+h2 {
+color: #000;
+font-size: 15px;
+margin-bottom: 10px;
+}
+h3 {
+color: #000;
+font-size: 12px;
+margin-bottom: 5px;
+}
+/* MENU */
+
+
+
+.active {
+    background-color:#C90000!important;
+}
+
+.sidebar-collapse , .sidebar-collapse .nav{
+    background:none;
+}
+.sidebar-collapse .nav {
+    padding:0;
+    margin-top: 25px;
+}
+.sidebar-collapse .nav > li > a {
+    color:#fff;
+    background:#202020;
+    text-shadow:none;
+}
+.sidebar-collapse > .nav > li > a {
+    padding:15px 0;
+}
+.sidebar-collapse > .nav > li {
+    border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+background:#0A0A0A;
+    outline:0;
+}
+
+.navbar-side {
+    border:none;
+    background-color: #202020;
+    border:0px solid black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+.nav > li > a > i {
+    margin-right:10px;
+}
+
+/* MEDIA QUERIES */
+
+@media(min-width:768px) {
+    #page-wrapper{
+        margin: 0 0 0 230px;
+        padding: 15px 30px;
+        min-height: 1200px;
+    }
+
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 230px;
+    }
+
+    .navbar {
+        border-radius: 0px; 
+    }
+
+}
