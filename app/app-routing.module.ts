@@ -4,8 +4,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AsyncComponent } from "./async/async.component";
 import { StartComponent } from "./start/start.component";
+import { SeoComponent } from "./seo/seo.component";
 
 const routes: Routes = [
+  { path: 'seo', component: SeoComponent },
   { path: 'async', component: AsyncComponent },
   { path: 'start', component: StartComponent }, // default
   { path: '', redirectTo: '/start', pathMatch: 'full' }, // default
@@ -20,5 +22,6 @@ export class AppRoutingModule { }
 
 export const routedComponents = [
   AsyncComponent,
-  StartComponent
+  StartComponent,
+  SeoComponent
   ];
