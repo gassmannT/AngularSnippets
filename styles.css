@@ -6,6 +6,7 @@ body {
 a, a:hover, a:focus {
     cursor: pointer;
     color: #c92c21;
+    text-decoration: none;
 }
 
 .form-control:focus {
@@ -82,7 +83,11 @@ margin-bottom: 5px;
 
 
 .active {
+    color: #0A0A0A;
+}
+.sidebar-collapse .active {
     background-color:#C90000!important;
+    color: #fff;
 }
 
 .sidebar-collapse , .sidebar-collapse .nav{
