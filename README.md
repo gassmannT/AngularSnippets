@@ -9,10 +9,10 @@ This package provides code snippets and code tests for Angular (2+)
 4.       Clone this repository
 
 ## Directory
-**Snippets :**
+**Snippets:**
 
 - [Observable and async pipe](https://github.com/gassmannT/AngularSnippets/tree/master/app/async)
 - [SEO features](https://github.com/gassmannT/AngularSnippets/tree/master/app/seo)
-```
-$ git clone https://github.com/gassmannT/AngularSnippets.git
-```
+- [Forms in Angular](https://github.com/gassmannT/AngularSnippets/tree/master/app/forms)
+
+
